@@ -1,0 +1,694 @@
+{
+  "game": {
+    "connected": true,
+    "gameName": "ATS",
+    "paused": false,
+    "time": "0032-01-22T10:18:00Z",
+    "timeScale": 3,
+    "nextRestStopTime": "0001-01-01T11:25:00Z",
+    "version": "1.3",
+    "telemetryPluginVersion": "10",
+    "telemetryServerVersion": "4.1.2.4",
+    "maxTrailerCount": 10
+  },
+  "truck": {
+    "id": "freightliner",
+    "make": "Freightliner",
+    "model": "Cascadia",
+    "speed": -0.0103296163,
+    "cruiseControlSpeed": 0,
+    "cruiseControlOn": false,
+    "odometer": 30.23259,
+    "shifterType": "hshifter",
+    "forwardGears": 7,
+    "reverseGears": 2,
+    "gear": 0,
+    "displayedGear": 0,
+    "engineRpm": 0,
+    "engineRpmMax": 2000,
+    "fuel": 890.672668,
+    "fuelCapacity": 909,
+    "fuelAverageConsumption": 0.600159049,
+    "fuelWarningFactor": 0.15,
+    "fuelWarningOn": false,
+    "wearEngine": 0.000002,
+    "wearTransmission": 0.000002,
+    "wearCabin": 0,
+    "wearChassis": 0,
+    "wearWheels": 0.00002,
+    "userSteer": -0.0135042341,
+    "userThrottle": 0,
+    "userBrake": 0,
+    "userClutch": 0,
+    "gameSteer": -0.0135042341,
+    "gameThrottle": 0,
+    "gameBrake": 0,
+    "gameClutch": 0,
+    "engineOn": false,
+    "electricOn": true,
+    "wipersOn": false,
+    "retarderBrake": 0,
+    "retarderStepCount": 3,
+    "parkBrakeOn": false,
+    "motorBrakeOn": false,
+    "brakeTemperature": -2.044958,
+    "adblue": 79.08363,
+    "adblueCapacity": 80,
+    "adblueAverageConsumption": 0,
+    "adblueWarningOn": false,
+    "airPressure": 114.499252,
+    "airPressureWarningOn": false,
+    "airPressureWarningValue": 59.16,
+    "airPressureEmergencyOn": false,
+    "airPressureEmergencyValue": 29.58,
+    "oilTemperature": -6.41758633,
+    "oilPressure": 0,
+    "oilPressureWarningOn": true,
+    "oilPressureWarningValue": 10.15,
+    "waterTemperature": -6.44646835,
+    "waterTemperatureWarningOn": false,
+    "waterTemperatureWarningValue": 105,
+    "batteryVoltage": 13.5599957,
+    "batteryVoltageWarningOn": true,
+    "batteryVoltageWarningValue": 11.88,
+    "lightsDashboardValue": 1,
+    "lightsDashboardOn": true,
+    "blinkerLeftActive": false,
+    "blinkerRightActive": false,
+    "blinkerLeftOn": false,
+    "blinkerRightOn": false,
+    "lightsParkingOn": true,
+    "lightsBeamLowOn": true,
+    "lightsBeamHighOn": true,
+    "lightsAuxFrontOn": false,
+    "lightsAuxRoofOn": false,
+    "lightsBeaconOn": true,
+    "lightsBrakeOn": false,
+    "lightsReverseOn": false,
+    "placement": {
+      "x": -38629.97067260742,
+      "y": 74.94464111328125,
+      "z": -11558.923278808594,
+      "heading": 0.7111710906028748,
+      "pitch": 0.0006274287588894367,
+      "roll": -0.000009182809662888758
+    },
+    "acceleration": {
+      "x": -0.00000753955237,
+      "y": 0.00032059662,
+      "z": -0.000005518495
+    },
+    "head": {
+      "x": -0.60054,
+      "y": -0.6284101,
+      "z": 0.445649981
+    },
+    "cabin": {
+      "x": 0,
+      "y": 3,
+      "z": -2
+    },
+    "hook": {
+      "x": 0,
+      "y": 1,
+      "z": 2.674753
+    },
+    "licensePlate": "77 BJK",
+    "licensePlateCountryId": "colorado",
+    "licensePlateCountry": "Colorado",
+    "wheelCount": 6,
+    "wheels": [
+      {
+        "simulated": true,
+        "steerable": true,
+        "powered": false,
+        "liftable": false,
+        "lifted": false,
+        "radius": 0.525,
+        "position": {
+          "x": -1.036,
+          "y": 0.511140645,
+          "z": -3.0580008
+        }
+      },
+      {
+        "simulated": true,
+        "steerable": true,
+        "powered": false,
+        "liftable": false,
+        "lifted": false,
+        "radius": 0.525,
+        "position": {
+          "x": 1.036,
+          "y": 0.511140645,
+          "z": -3.0580008
+        }
+      },
+      {
+        "simulated": true,
+        "steerable": false,
+        "powered": true,
+        "liftable": false,
+        "lifted": false,
+        "radius": 0.5072842,
+        "position": {
+          "x": -0.911,
+          "y": 0.513568,
+          "z": 2.025712
+        }
+      },
+      {
+        "simulated": true,
+        "steerable": false,
+        "powered": true,
+        "liftable": false,
+        "lifted": false,
+        "radius": 0.5072842,
+        "position": {
+          "x": 0.911,
+          "y": 0.513568,
+          "z": 2.025712
+        }
+      },
+      {
+        "simulated": true,
+        "steerable": false,
+        "powered": true,
+        "liftable": false,
+        "lifted": false,
+        "radius": 0.5072842,
+        "position": {
+          "x": -0.911,
+          "y": 0.513568,
+          "z": 3.32070374
+        }
+      },
+      {
+        "simulated": true,
+        "steerable": false,
+        "powered": true,
+        "liftable": false,
+        "lifted": false,
+        "radius": 0.5072842,
+        "position": {
+          "x": 0.911,
+          "y": 0.513568,
+          "z": 3.32070374
+        }
+      }
+    ]
+  },
+  "shifter": {
+    "type": "hshifter",
+    "forwardGears": 7,
+    "forwardGearNames": [
+      "N",
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7"
+    ],
+    "reverseGears": 2,
+    "reverseGearNames": [
+      "N",
+      "RL",
+      "RH"
+    ],
+    "differentialRatio": 3.55,
+    "forwardGearRatios": [
+      7.63,
+      3.51,
+      1.91,
+      1.43,
+      1,
+      0.74,
+      0.64
+    ],
+    "reverseGearRatios": [
+      -17.12,
+      -4.8
+    ],
+    "tyreCircumference": 3.1873607830103783,
+    "forwardSpeedAt1500Rpm": [
+      0,
+      11,
+      23,
+      42,
+      57,
+      81,
+      109,
+      126
+    ],
+    "reverseSpeedAt1500Rpm": [
+      0,
+      -5,
+      -17
+    ],
+    "forwardRpmAtCurrentSpeed": [
+      0,
+      1,
+      1,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "reverseRpmAtCurrentSpeed": [
+      0,
+      -3,
+      -1
+    ],
+    "selectorCount": 2,
+    "slotCount": 8,
+    "slots": [
+      {
+        "slot": 0,
+        "seletors": [
+          {
+            "selector": 0,
+            "gear": 0,
+            "gearName": "N"
+          },
+          {
+            "selector": 1,
+            "gear": 0,
+            "gearName": "N"
+          }
+        ]
+      },
+      {
+        "slot": 1,
+        "seletors": [
+          {
+            "selector": 0,
+            "gear": -1,
+            "gearName": "RL"
+          },
+          {
+            "selector": 1,
+            "gear": -2,
+            "gearName": "RH"
+          }
+        ]
+      },
+      {
+        "slot": 2,
+        "seletors": [
+          {
+            "selector": 0,
+            "gear": 1,
+            "gearName": "1"
+          },
+          {
+            "selector": 1,
+            "gear": 2,
+            "gearName": "2"
+          }
+        ]
+      },
+      {
+        "slot": 3,
+        "seletors": [
+          {
+            "selector": 0,
+            "gear": 3,
+            "gearName": "3"
+          },
+          {
+            "selector": 1,
+            "gear": 4,
+            "gearName": "4"
+          }
+        ]
+      },
+      {
+        "slot": 4,
+        "seletors": [
+          {
+            "selector": 0,
+            "gear": 5,
+            "gearName": "5"
+          },
+          {
+            "selector": 1,
+            "gear": 6,
+            "gearName": "6"
+          }
+        ]
+      },
+      {
+        "slot": 5,
+        "seletors": [
+          {
+            "selector": 0,
+            "gear": 7,
+            "gearName": "7"
+          },
+          {
+            "selector": 1,
+            "gear": 7,
+            "gearName": "7"
+          }
+        ]
+      },
+      {
+        "slot": 6,
+        "seletors": [
+          {
+            "selector": 0,
+            "gear": 0,
+            "gearName": "N"
+          },
+          {
+            "selector": 1,
+            "gear": 0,
+            "gearName": "N"
+          }
+        ]
+      },
+      {
+        "slot": 7,
+        "seletors": [
+          {
+            "selector": 0,
+            "gear": 0,
+            "gearName": "N"
+          },
+          {
+            "selector": 1,
+            "gear": 0,
+            "gearName": "N"
+          }
+        ]
+      }
+    ],
+    "gear": 0,
+    "displayedGear": 0,
+    "displayedGearName": "N",
+    "gearRatio": 0,
+    "slot": 0,
+    "selector": 0,
+    "bestGear": -1,
+    "bestGearName": "RL"
+  },
+  "trailerCount": 1,
+  "trailers": [
+    {
+      "number": 0,
+      "attached": true,
+      "present": true,
+      "id": "vehicle.scs.lowboy",
+      "name": "A-SNZ-20",
+      "wearWheels": 0.00002,
+      "wearChassis": 0.00002,
+      "wear": 0.00002,
+      "cargoDamage": 0,
+      "cargoAccessoryId": "scs_lowboy.empty_cargo",
+      "brandId": "scs",
+      "brand": "",
+      "bodyType": "lowboy",
+      "cargo": "lowboy",
+      "licensePlate": "  ACM-I66",
+      "licensePlateCountry": "Colorado",
+      "licensePlateCountryId": "colorado",
+      "chainType": "single",
+      "placement": {
+        "x": -38638.904861450195,
+        "y": 74.9226303100586,
+        "z": -11561.062713623047,
+        "heading": 0.7131671905517578,
+        "pitch": -0.00015550063108094037,
+        "roll": 0.000025081972125917673
+      },
+      "distance": 9.186806,
+      "hook": {
+        "x": 0,
+        "y": 1,
+        "z": -6.50691
+      },
+      "wheelCount": 6,
+      "wheels": [
+        {
+          "simulated": true,
+          "steerable": false,
+          "powered": false,
+          "liftable": false,
+          "lifted": false,
+          "radius": 0.5072842,
+          "position": {
+            "x": -0.9927,
+            "y": 0.52,
+            "z": 5.16347647
+          }
+        },
+        {
+          "simulated": true,
+          "steerable": false,
+          "powered": false,
+          "liftable": false,
+          "lifted": false,
+          "radius": 0.5072842,
+          "position": {
+            "x": 0.9927,
+            "y": 0.52,
+            "z": 5.16347647
+          }
+        },
+        {
+          "simulated": true,
+          "steerable": false,
+          "powered": false,
+          "liftable": false,
+          "lifted": false,
+          "radius": 0.5072842,
+          "position": {
+            "x": -0.9927,
+            "y": 0.52,
+            "z": 6.58847666
+          }
+        },
+        {
+          "simulated": true,
+          "steerable": false,
+          "powered": false,
+          "liftable": false,
+          "lifted": false,
+          "radius": 0.5072842,
+          "position": {
+            "x": 0.9927,
+            "y": 0.52,
+            "z": 6.58847666
+          }
+        },
+        {
+          "simulated": true,
+          "steerable": false,
+          "powered": false,
+          "liftable": false,
+          "lifted": false,
+          "radius": 0.5072842,
+          "position": {
+            "x": -0.9927,
+            "y": 0.52,
+            "z": 8.037296
+          }
+        },
+        {
+          "simulated": true,
+          "steerable": false,
+          "powered": false,
+          "liftable": false,
+          "lifted": false,
+          "radius": 0.5072842,
+          "position": {
+            "x": 0.9927,
+            "y": 0.52,
+            "z": 8.037296
+          }
+        }
+      ]
+    }
+  ],
+  "trailer": {
+    "number": 0,
+    "attached": true,
+    "present": true,
+    "id": "vehicle.scs.lowboy",
+    "name": "A-SNZ-20",
+    "wearWheels": 0.00002,
+    "wearChassis": 0.00002,
+    "wear": 0.00002,
+    "cargoDamage": 0,
+    "cargoAccessoryId": "scs_lowboy.empty_cargo",
+    "brandId": "scs",
+    "brand": "",
+    "bodyType": "lowboy",
+    "cargo": "lowboy",
+    "licensePlate": "  ACM-I66",
+    "licensePlateCountry": "Colorado",
+    "licensePlateCountryId": "colorado",
+    "chainType": "single",
+    "placement": {
+      "x": -38638.904861450195,
+      "y": 74.9226303100586,
+      "z": -11561.062713623047,
+      "heading": 0.7131671905517578,
+      "pitch": -0.00015550063108094037,
+      "roll": 0.000025081972125917673
+    },
+    "distance": 9.186806,
+    "hook": {
+      "x": 0,
+      "y": 1,
+      "z": -6.50691
+    },
+    "wheelCount": 6,
+    "wheels": [
+      {
+        "simulated": true,
+        "steerable": false,
+        "powered": false,
+        "liftable": false,
+        "lifted": false,
+        "radius": 0.5072842,
+        "position": {
+          "x": -0.9927,
+          "y": 0.52,
+          "z": 5.16347647
+        }
+      },
+      {
+        "simulated": true,
+        "steerable": false,
+        "powered": false,
+        "liftable": false,
+        "lifted": false,
+        "radius": 0.5072842,
+        "position": {
+          "x": 0.9927,
+          "y": 0.52,
+          "z": 5.16347647
+        }
+      },
+      {
+        "simulated": true,
+        "steerable": false,
+        "powered": false,
+        "liftable": false,
+        "lifted": false,
+        "radius": 0.5072842,
+        "position": {
+          "x": -0.9927,
+          "y": 0.52,
+          "z": 6.58847666
+        }
+      },
+      {
+        "simulated": true,
+        "steerable": false,
+        "powered": false,
+        "liftable": false,
+        "lifted": false,
+        "radius": 0.5072842,
+        "position": {
+          "x": 0.9927,
+          "y": 0.52,
+          "z": 6.58847666
+        }
+      },
+      {
+        "simulated": true,
+        "steerable": false,
+        "powered": false,
+        "liftable": false,
+        "lifted": false,
+        "radius": 0.5072842,
+        "position": {
+          "x": -0.9927,
+          "y": 0.52,
+          "z": 8.037296
+        }
+      },
+      {
+        "simulated": true,
+        "steerable": false,
+        "powered": false,
+        "liftable": false,
+        "lifted": false,
+        "radius": 0.5072842,
+        "position": {
+          "x": 0.9927,
+          "y": 0.52,
+          "z": 8.037296
+        }
+      }
+    ]
+  },
+  "job": {
+    "income": 0,
+    "deadlineTime": "0001-01-01T00:00:00Z",
+    "remainingTime": "0001-01-01T00:00:00Z",
+    "sourceCity": "",
+    "sourceCompany": "",
+    "destinationCity": "",
+    "destinationCompany": "",
+    "specialTransport": false,
+    "jobMarket": ""
+  },
+  "cargo": {
+    "cargoLoaded": false,
+    "cargoId": "",
+    "cargo": "",
+    "mass": 0,
+    "unitMass": 0,
+    "unitCount": 0,
+    "damage": 0
+  },
+  "navigation": {
+    "estimatedTime": "0001-01-01T00:00:00Z",
+    "estimatedDistance": 0,
+    "speedLimit": 56
+  },
+  "finedEvent": {
+    "fineOffense": "",
+    "fineAmount": 0,
+    "fined": false
+  },
+  "jobEvent": {
+    "jobFinished": false,
+    "jobCancelled": false,
+    "jobDelivered": false,
+    "cancelPenalty": 0,
+    "revenue": 0,
+    "earnedXp": 0,
+    "cargoDamage": 0,
+    "distance": 0,
+    "deliveryTime": "0001-01-01T00:00:00Z",
+    "autoparkUsed": false,
+    "autoloadUsed": false
+  },
+  "tollgateEvent": {
+    "tollgateUsed": false,
+    "payAmount": 0
+  },
+  "ferryEvent": {
+    "ferryUsed": false,
+    "sourceName": "",
+    "targetName": "",
+    "sourceId": "",
+    "targetId": "",
+    "payAmount": 0
+  },
+  "trainEvent": {
+    "trainUsed": false,
+    "sourceName": "",
+    "targetName": "",
+    "sourceId": "",
+    "targetId": "",
+    "payAmount": 0
+  }
+}
